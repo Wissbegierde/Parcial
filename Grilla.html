@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilla </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="division">
+
+        <h1>WebDeveloper</h1>
+        <form action="formulario2.html" method="get" id="form" onsubmit="saveData()">
+        <fieldset>
+            <input type="hidden" name="maxPorcentaje" id="maxPorcentaje" value="" />
+            <input type="hidden" name="maxGusto" id="maxGusto" value="" />
+            <legend><h3>Formulario</h3></legend>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" id="name" value="" size="30" maxlength="25" />
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="" size="50" maxlength="120" />
+            </div>
+            <div class="input-group">
+                <label for="Number">Numero</label>
+                <input type="text" name="numero" id="numero" value="" size="50" maxlength="120" />
+            </div>
+            <div class="input-group">
+                <label for="gustos">Gustos</label>
+                <input type="text" name="gustos" id="gustos" value="" size="50" maxlength="120" />
+                <button id="agregarFila">Agregar fila</button>
+            </div>
+            <table id="grilla">
+                <thead>
+                    <tr>
+                        <th>Gustos</th>
+                        <th>%</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- No hay filas aquí inicialmente -->
+                </tbody>
+                
+
+            </table>
+ 
+        </fieldset>
+        <div id="mensaje" style="display: none;"></div>
+
+        <input type="submit" value="Guardar cambios" />
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

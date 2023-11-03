@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    background-color: #a9294f;
+    color: #ffffff; /* Text color */
+}
+
+#division {
+    background-color: #a9294f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffffff; /* Text color */
+}
+
+legend {
+    color: #ffffff; /* Text color */
+}
+
+fieldset {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.input-group label {
+    color: #ffffff; /* Text color */
+    margin: 10px;
+}
+
+.input-group input {
+    background-color: #c7753d;
+    color: #ffffff; /* Text color */
+    margin:10px;
+}
+
+
+#grilla {
+    width: 50%; /* Ajusta el ancho de la grilla */
+    margin: auto; /* Centra la grilla */
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+}
+
+#grilla th, #grilla td {
+    text-align: center; /* Centra el texto en las celdas */
+    border: 1px solid black; /* Agrega una línea separadora a las celdas */
+}
+
+#gustos, #porcentaje {
+    width: 50%; /* Ajusta el ancho de los campos de entrada */
+    margin: auto; /* Centra los campos de entrada */
+}
+
+#agregarFila {
+    background-color: #f6d887;
+    color: #000000; /* Text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#agregarFila:hover {
+    background-color: #c7753d;
+    color: #ffffff; /* Text color */
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #c7753d;
+    color: #ffffff; /* Text color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#grilla tbody tr:nth-child(odd) {
+    background-color: #a9294f;
+}
+
+#grilla tbody tr:nth-child(even) {
+    background-color: #6f9eaf;
+}
+
+#mensaje {
+    background-color: #f6d887;
+    color: #000000; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#mensaje.success {
+    background-color: #6f9eaf;
+}
+
+#mensaje.error {
+    background-color: #a9294f;
+}
+
+input[type="submit"] {
+    background-color: #6f9eaf;
+    color: #ffffff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f6d887;
+}
